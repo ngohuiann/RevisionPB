@@ -1,13 +1,13 @@
 <html>
+<?php
+include('Includes/header.html');
+?>
 <head>
     <link rel="stylesheet" type="text/css" href="CSS/index.css" />
-    <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Josefin+Sans" rel="stylesheet">
 </head>
 <body>
     <div style="max-width: 1600px; margin: auto;">
-        <div class="header">
-            <h1>RevisionPB</h1>
-        </div>
+
         <div class="outter-border fill">
             <div class="outter-border left">
                 <div class="card">
@@ -46,11 +46,8 @@
             </div>
         </div>
     </div>
-    <div class="clear"></div>
-    <footer>
-        <div class="footer">
-            All right reserved.
-        </div>
-    </footer>
+<?php
+include('Includes/footer.html');
+?>
 </body>
 </html>
