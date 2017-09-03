@@ -1,0 +1,94 @@
+html, body{
+    background-color: #EEEEEE;
+    margin: 0;
+    line-height: 1.5;
+}
+
+div{
+    display: block;
+}
+
+h1{
+    text-align: center;
+    font-size: 46px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+.outter-border.left{
+    max-width: 67%;
+    float: left;
+}
+
+.outter-border.right{
+    max-width: 33%;
+    float: left;
+}
+
+.card {
+    box-shadow: 1px 4px 20px 5px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    margin: 20px;
+}
+
+.card h2{
+    font-size: 32px;
+    margin: 0;
+}
+
+.card .date{
+    text-align: right;
+    margin: 0;
+}
+
+.container {
+    padding: 20 16px 16px;
+}
+
+.profile-card{
+    box-shadow: 1px 4px 20px 5px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    margin: 20px;
+}
+
+.tag{
+    box-shadow: 1px 4px 20px 5px rgba(0, 0, 0, 0.15);
+    margin: 20px;
+}
+
+.tag h2{
+    background-color: #E0E0E0;
+    padding: 10px;
+    margin: 0;
+}
+
+.tag-desc{
+    padding: 20px 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 13px;
+    color: white;
+    font-family: arial;
+    border-radius: 5px;
+    background-color: #212121;
+    border: 0;
+}
+
+.clear{
+    clear:both;
+}
+
+.footer{
+    bottom: 0;
+    padding: 1rem 2rem;
+    background-color: #212121;
+    color: white;
+}
