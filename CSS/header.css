@@ -2,6 +2,12 @@
     text-align: center;
     font-size: 46px;
     margin-top: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     font-family: 'Maven Pro', sans-serif;
+}
+
+.header a:link{
+	text-decoration: none;
+	color: black;
+	outline: none;
 }

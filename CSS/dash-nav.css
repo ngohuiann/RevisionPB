@@ -1,0 +1,65 @@
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+.icon-bar {
+    width: 50px; /* Set a specific width */
+    height: 100%;
+    transition: 0.3s;
+    background-color: #757575; /* Dark-grey background */
+    z-index: 2;
+    position: fixed;
+    margin-right: 50px;
+}
+
+.icon-bar a {
+    position: absolute;
+    text-align: right; 
+    padding: 15px 17px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 14px; /* Increased font-size */
+    float: right;
+    left: -100px;
+    width: 150px;
+    background-color: #757575;
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+    z-index: 2;
+}
+
+.icon-bar a:hover {
+    background-color: #BDBDBD; /* Add a hover color */
+    color: black;
+    left: 0; 
+    z-index: 2;
+}
+ 
+.icon-bar a:active {
+    background-color: #BDBDBD; /* Add an active/current color */
+    color: black;
+}
+
+.nav-img{
+	width: 3em;
+	height: 3em;
+	border-radius: 50%;
+	display: inline-block;
+	padding: 4px;
+	margin-bottom: 2px;
+	margin-left: 1px;
+	bottom: 0;
+	position: absolute;
+}
+
+.lnr {
+    display: inline-block;
+    fill: white;
+    width: 1em;
+    height: 1.em;
+    float:right;
+    font-size: 22px;
+    margin-left: 15px;
+}

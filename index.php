@@ -4,6 +4,7 @@ include('Includes/header.html');
 ?>
 <head>
     <link rel="stylesheet" type="text/css" href="CSS/index.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/include.css" />
 </head>
 <body>
     <div style="max-width: 1600px; margin: auto;">
