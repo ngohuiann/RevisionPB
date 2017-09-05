@@ -6,8 +6,10 @@
     font-family: 'Maven Pro', sans-serif;
 }
 
-.header a:link{
+.header a:link, a:visited{
 	text-decoration: none;
 	color: black;
 	outline: none;
 }
+
+
