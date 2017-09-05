@@ -3,7 +3,7 @@
 include('Conf/init.php');
 
 $password = "ng0hu1@nn";
-$username = "RevisionPB1";
+$username = "RevisionPB";
 $email = "melody6666@live.com";
 
 $hashedpwd = password_hash($password, PASSWORD_DEFAULT);
@@ -17,7 +17,7 @@ $sql="INSERT INTO admin (Username,Password,Email) VALUES ('$username','$hashedpw
 		}
 		echo "<script>
 	alert('Register Successful!');
-	window.location.href='/kyro/customer.php';
+	window.location.href='/RevisionPB/Index';
 	</script>";
 	
 mysqli_close($conn);
