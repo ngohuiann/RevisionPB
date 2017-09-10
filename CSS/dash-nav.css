@@ -49,9 +49,13 @@
 	display: inline-block;
 	padding: 4px;
 	margin-bottom: 2px;
-	margin-left: 1px;
+	margin-left: -3px;
 	bottom: 0;
 	position: absolute;
+}
+
+.nav-img:hover{
+	cursor: pointer;
 }
 
 .lnr {
