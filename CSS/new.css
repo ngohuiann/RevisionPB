@@ -1,3 +1,9 @@
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
 .input-box{
     float:left;
     border: 1px solid;
@@ -9,4 +15,50 @@
     float:left;
     border: 1px solid red;
     width: 30%;
+    margin: 15px;
+}
+
+.outer-layer{
+    border: 1px solid black;
+    width: 65%;
+    background-color: white;
+    height: 300px;
+}
+
+.sel-tag{
+    background-color: #e0e0e0;
+    padding: 35px;
+    height: 100%;
+}
+
+.sel-tag button{
+    width: 60px;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    border: 0;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+.sel-tag button:hover{
+    background-color: #616161;
+    cursor: pointer;
+}
+
+/* Style the input */
+.outer-layer input {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn-wrap button{
+    width: 65%;
+    padding: 10px;
+    margin-top: 5px;
 }

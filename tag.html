@@ -1,0 +1,33 @@
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="CSS/tag.css" />
+    </head>
+    <body>
+        <div class="out-wrap">
+            <div class="input-area" id="input-area">
+                <button >SAD <span class="closebtn" onclick="this.style.display='none'">&times;</span></button>
+            </div>
+            <div class="btn-area">
+                <button onclick="add">SAD</button>
+                <button onclick="add">ISWE</button>
+            </div>
+        </div>
+        
+        <script>
+            function myMove() {
+              var elem = document.getElementById("myAnimation");   
+              var pos = 0;
+              var id = setInterval(frame, 10);
+              function frame() {
+                if (pos == 350) {
+                  clearInterval(id);
+                } else {
+                  pos++; 
+                  elem.style.top = pos + 'px'; 
+                  elem.style.left = pos + 'px'; 
+                }
+              }
+            }
+        </script>
+    </body>
+</html>
